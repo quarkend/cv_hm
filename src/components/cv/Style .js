@@ -36,11 +36,14 @@ export const H1 = styled.h1`
 export const H2 = styled.h2`
 
 
-    margin-top: 1em;
-    text-align: center;
+    /* margin-top: 1em; */
+    text-align: start;
     width: -webkit-fill-available;
-    text-decoration: overline;
-  text-decoration-color: #03A9F4;
+    text-decoration: underline;
+    text-decoration-color: #03A9F4;
+    margin: 39px 0px 0 27px;
+    align-content: space-between;
+    flex-direction: row;
 
 `;
 
@@ -54,7 +57,7 @@ export const Main = styled.main`
 `;
 
 export const Aside = styled.aside`
-  background-color: #03A9F4;
+  background-color: #4c8dc270;
   /* text-decoration: none !important; */
   flex: 1;
 `;
